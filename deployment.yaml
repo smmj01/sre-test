@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: https://registry.docker.ir/nginx
+          image: docker.host:5000/library/nginx
           ports:
             - containerPort: 80
